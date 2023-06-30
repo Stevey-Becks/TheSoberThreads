@@ -44,3 +44,27 @@
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 532px) {
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .month-box {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
+}
